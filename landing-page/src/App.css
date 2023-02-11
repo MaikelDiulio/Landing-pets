@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  width: 100%;
+  background-color: #EABF02;
+  min-height: 100vh;
+  /* display:none; */
+  overflow-x: hidden;
+
+}
+
+
+.whatsap {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+
+}
+
+
+.whatsap img {
+  width: 50px;
+  box-shadow: 1px gray;
+  /* padding: 0 10px; */
+
+}
